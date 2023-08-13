@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css?family=Staatliches&display=fallback");
+@import url("https://fonts.googleapis.com/css?family=Sen&display=fallback");
+
+:root {
+  --text: #111;
+  --background-color: #ffffff;
+  --description-text-color: #999;
+  --primary-color: #000000;
+  --primary-color-10: #00000010;
+  --lighter-background-color: #fff;
+  --background-border-color: #eee;
+  --checkout-blue: #1063ff;
+  --navbar-background-color: #ffffff;
+  --navbar-button-color: #000000;
+  --navbar-hint-color: #ee82ee;
+  --navbar-text-color: #000000;
+  --navbar-upperbar-color: #ee82ee;
+}
+
+body {
+  background-color: #ffffff;
+  color: #111;
+}
+a,
+h3 {
+  color: rgb(0, 0, 0);
+}
+
+.root__content {
+  display: block;
+}
+.nav__info {
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.nav__info div {
+  flex: 1 1;
+}
+.root__container {
+  min-height: calc(100vh - 120px - 377px);
+}
+
+body {
+  font-family: "Sen", sans-serif;
+}
+
+.bodyFont {
+  font-family: "Sen", sans-serif;
+}
+
+.appTitle {
+  font-family: "Sen", sans-serif;
+}
+
+.appSubtitle {
+  font-family: "Staatliches", sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textColor {
+  color: #111;
+}
+
+.descriptionTextColor {
+  color: #999;
+}
+
+.backgroundColor {
+  background-color: #ffffff;
+}
+
+.lighterBackgroundColor {
+  background-color: #fff;
+}
+
+.secondaryBackgroundColor {
+  background-color: #eee;
+}
+
+.backgroundBorderColor {
+  border-color: #eee;
+}
+
+.content {
+  background-color: #fff;
+  color: #111;
+}
+
+.divider {
+  background-color: #eee;
+}
+
+.primaryColor {
+  color: #000000;
+}
+
+.primaryBackgroundColor {
+  background-color: #000000;
+}
+
+.primaryBackgroundColor10 {
+  background-color: var(--primary-color-10);
+}
+
+.primaryBorderColor {
+  border-color: #000000;
+}
+
+.orion_primary,
+.orion_primary:active,
+.orion_primary:hover {
+  background-color: #000000;
+}
+
+a {
+  color: #000000;
+}
+
+#nprogress .bar {
+  background: #3c3c3c;
+}
+
+#nprogress .peg {
+  -webkit-box-shadow: 0 0 10px #3c3c3c, 0 0 5px #3c3c3c;
+  -moz-box-shadow: 0 0 10px #3c3c3c, 0 0 5px #3c3c3c;
+  box-shadow: 0 0 10px #3c3c3c, 0 0 5px #3c3c3c;
+}
+
+.button-v3-primary {
+  background-color: #000000;
+}
+
+.focus:button-v3-primary:focus {
+  --tw-ring-color: #000000;
+}
+
+.ct-footer {
+  padding: 80px 0;
+}
+.footer__link {
+  min-width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+.slider .animated {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  -o-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+}
+
+.svg-class {
+  top: -1px;
+  position: relative;
+}
+
+.orion-select__option--is-selected ._3-F_k0qTXcHCdSHenpigrZ {
+  color: #fff;
+}
+.orion-select__value-container .eQ3JwINJv1QmxOXO-N8it {
+  font-size: 16px;
+  display: inline-block;
+}
+.orion-select__value-container ._3-F_k0qTXcHCdSHenpigrZ {
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.order-wrapper {
+  padding: 60px 0;
+  box-sizing: border-box;
+  min-height: calc(80vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  background-image: url(../images/p-4.webp);
+}
+.order-wrapper {
+  background-position: 50%;
+  background-size: cover;
+}
+.order-wrapper__title-h1 {
+  margin-top: -40px;
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.order-wrapper__title {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order-wrapper ._1oKMjRN7GFgzOY95HzOYdk {
+  opacity: 0.9;
+  font-size: 14px;
+}
+.order-wrapper__gap {
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.box-container__content {
+  margin: 10px;
+  flex: 1 1;
+  padding: 0 !important;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.ct-desc {
+  flex: 1 1;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.box-container__img {
+  position: relative;
+}
+.box-container__img-class {
+  width: 100%;
+}
+.ct-desc__title {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.ct-desc__gap {
+  flex: 1 1;
+}
+.ct-desc__desc {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+  max-height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.ct-desc__price {
+  font-weight: 700;
+  font-size: 1.15em;
+}
+._3qJIhNTqDVrdpgdbK3MR4x {
+  font-weight: 700;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.full-product-info {
+  font-weight: 700;
+  border-top: 1px solid #eee;
+  padding: 10px 20px;
+}
+.container__text {
+  text-align: center;
+  margin: 20px 0;
+}
+.max-width-class {
+  width: 100%;
+}
+.box-container {
+  display: flex;
+}
+@media (max-width: 760px) {
+  .box-container {
+    display: block;
+  }
+}
+
+.w-80 {
+  width: 20rem;
+}
+.ct-button-box {
+  display: flex;
+  margin: 0 -5px 10px;
+}
+.r-buttons {
+  cursor: pointer;
+  flex: 1 1;
+  text-align: center;
+  margin: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 15px 5px;
+  border: 1px solid #ffffff55;
+  box-shadow: none;
+}
+.l-buttons {
+  cursor: pointer;
+  flex: 1 1;
+  text-align: center;
+  margin: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 15px 5px;
+  border: 1px solid #ffffff55;
+  box-shadow: none;
+}
+.b-buttons {
+  margin-top: 10px;
+  width: 320px;
+  height: 46px;
+  color: #fff;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+/* footer */
+.ct-footer-logo {
+  width: 250px;
+  height: 75px;
+}
+.ct-footer-logo__img {  
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.ct-footer-logo__links {  
+  display: block;
+  margin-top: 10px;
+}
